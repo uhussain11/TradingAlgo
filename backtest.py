@@ -157,4 +157,4 @@ def execute_trade_with_risk_management(entry_point, trade_direction, account_bal
     take_profit_price = entry_point + take_profit if trade_direction == 'long' else entry_point - take_profit
     
     print(f"Executing {'buy' if trade_direction == 'long' else 'sell'} order at {entry_point}, Stop Loss: {stop_loss_price}, Take Profit: {take_profit_price}, Trade Size: {trade_size}")
-    # This function is a placeholder. Integrate with your brokerage's API to execute the order with specified stop loss and take profit.
+    # placeholder. Integrate with your brokerage's API.
